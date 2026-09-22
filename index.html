@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ASR - Speech to Text</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🎙️ ASR Speech to Text</h1>
+            <p>Automatic Speech Recognition & Text Analysis</p>
+        </header>
+
+        <main>
+
+            <!-- Recording Section -->
+            <section class="card">
+
+                <h2>Speech Recognition</h2>
+
+                <div class="status">
+                    <span id="statusDot"></span>
+                    <span id="status">Ready to record</span>
+                </div>
+
+                <button id="startBtn" class="start-btn">
+                    🎤 Start Recording
+                </button>
+
+                <button id="stopBtn" class="stop-btn" disabled>
+                    ⏹ Stop Recording
+                </button>
+
+            </section>
+
+
+            <!-- Transcription Section -->
+            <section class="card">
+
+                <h2>📝 Transcribed Text</h2>
+
+                <textarea id="transcript" placeholder="Your recognized speech will appear here..."></textarea>
+
+                <div class="buttons">
+
+                    <button id="copyBtn">
+                        📋 Copy
+                    </button>
+
+                    <button id="clearBtn">
+                        🗑️ Clear
+                    </button>
+
+                    <button id="downloadBtn">
+                        ⬇️ Download
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- Analysis Section -->
+            <section class="card">
+
+                <h2>📊 Text Analysis</h2>
+
+                <div class="analysis">
+
+                    <div class="stat">
+                        <h3 id="wordCount">0</h3>
+                        <p>Words</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3 id="charCount">0</h3>
+                        <p>Characters</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3 id="sentenceCount">0</h3>
+                        <p>Sentences</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>ASR-Based Text & Speech Analysis Project</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
