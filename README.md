@@ -58,6 +58,7 @@ Open the terminal and run:
 
 ```bash
 
+<img width="927" height="462" alt="image" src="https://github.com/user-attachments/assets/98a33c5b-544d-408f-a911-96d0e89ae61f" />
 
 
 
