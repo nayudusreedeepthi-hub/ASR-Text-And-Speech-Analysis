@@ -59,6 +59,7 @@ Open the terminal and run:
 ```bash
 
 <img width="927" height="462" alt="image" src="https://github.com/user-attachments/assets/98a33c5b-544d-408f-a911-96d0e89ae61f" />
+<img width="919" height="466" alt="image" src="https://github.com/user-attachments/assets/ea116302-a4b8-46ca-94e5-fbe80c2bd251" />
 
 
 
