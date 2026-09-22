@@ -57,3 +57,12 @@ Open the project folder in VS Code.
 Open the terminal and run:
 
 ```bash
+
+
+
+
+
+
+
+
+![Uploading image.png…]()
